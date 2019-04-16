@@ -13,12 +13,12 @@ body {
   border-top: 0!important;
 }
 .o_list_view tbody tr td {
-  border: 1px solid #929292 !important;
+  border: 1px solid #d2d2d2 !important;
 }
 .o_list_view thead tr th {
   text-align: center;
-  border: 1px solid #929292 !important;
-  background-color: #a2a2a2;
+  border: 1px solid #d2d2d2 !important;
+  background-color: #c2c2c2;
 }
 tfoot > .o_list_view.table td,
 tfoot > .o_list_view.table th {
@@ -359,8 +359,8 @@ div.oe_secondary_menu_section:has(+ ul.oe_secondary_submenu li.active) {
 }
 .o_required_modifier.o_input,
 .o_required_modifier .o_input {
-  background-color: #ffffff !important;
-  border-bottom: 3px solid #a2a2a2;
+  border-radius: 2px;
+  border-bottom: 2px solid #a2a2a2;
 }
 .modal.o_technical_modal .modal-dialog .modal-content {
   border-radius: 5px;
@@ -369,5 +369,14 @@ div.oe_secondary_menu_section:has(+ ul.oe_secondary_submenu li.active) {
   padding: 5px;
   border: 1px solid #dddddd;
   border-radius: 4px;
+}
+.o_datepicker {
+  width: 52%!important;
+}
+.o_form_view .o_group .o_field_widget > .btn {
+  padding: 0 0;
+}
+.o_datepicker .o_datepicker_button:after {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */
